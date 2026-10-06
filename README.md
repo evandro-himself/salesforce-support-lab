@@ -26,12 +26,32 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 
 | Módulo | Atividade | Status |
 |---|---|---|
-| 01 | Atendimento e incidentes N1/N2 | Planejado |
+
+| 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | 1º caso concluído |
 | 02 | Usuários, perfis e permissões | Planejado |
 | 03 | Campos, layouts e validações | Planejado |
 | 04 | Automações com Flow | Planejado |
 | 05 | Importação e qualidade de dados | Planejado |
 | 06 | Documentação e base de conhecimento | Planejado |
+
+## Casos práticos concluídos
+
+### INC-001 — Falha de visibilidade de campo
+
+**Cenário:** usuário sem acesso ao campo
+Categoria de Atendimento no objeto Account.
+
+**Atividades realizadas:**
+- Reprodução do problema.
+- Análise de Field-Level Security.
+- Ajuste das permissões do perfil.
+- Validação com usuário de teste.
+- Documentação da solução.
+
+**Resultado:** incidente resolvido e validado.
+
+[Ver relatório técnico e evidência](01-chamados-n1-n2/INC-001.md)
+
 
 ## Metodologia
 
