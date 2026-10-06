@@ -29,7 +29,7 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 
 | 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | 1º caso concluído |
 | 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | 2º caso concluído |
-| 03 | Campos, layouts e validações | Planejado |
+| 03 | [Campos e regras de validação](01-chamados-n1-n2/INC-003.md) | 3º caso concluído |
 | 04 | Automações com Flow | Planejado |
 | 05 | Importação e qualidade de dados | Planejado |
 | 06 | Documentação e base de conhecimento | Planejado |
@@ -69,6 +69,25 @@ Categoria de Atendimento para um usuário.
 Permission Set, sem depender da permissão do perfil.
 
 [Ver relatório técnico e evidência](01-chamados-n1-n2/INC-002.md)
+
+
+### INC-003 — Erro de validação no Salesforce
+
+**Cenário:** usuário impedido de salvar o cadastro
+de um cliente devido a uma regra de validação.
+
+**Atividades realizadas:**
+- Reprodução do erro no Salesforce.
+- Investigação de Validation Rules.
+- Análise da fórmula de validação.
+- Identificação da causa do bloqueio.
+- Correção dos dados do registro.
+- Validação da solução aplicada.
+
+**Resultado:** cadastro corrigido e salvo
+com sucesso, mantendo a regra ativa.
+
+[Ver relatório técnico e evidências](01-chamados-n1-n2/INC-003.md)
 
 ## Metodologia
 
