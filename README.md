@@ -28,7 +28,8 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 |---|---|---|
 
 | 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | 1º caso concluído |
-| 02 | Usuários, perfis e permissões | Planejado |
+| 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | 1º caso concluído |
+
 | 03 | Campos, layouts e validações | Planejado |
 | 04 | Automações com Flow | Planejado |
 | 05 | Importação e qualidade de dados | Planejado |
@@ -52,6 +53,23 @@ Categoria de Atendimento no objeto Account.
 
 [Ver relatório técnico e evidência](01-chamados-n1-n2/INC-001.md)
 
+
+### INC-002 — Gestão de acessos com Permission Set
+
+**Cenário:** concessão de acesso específico ao campo
+Categoria de Atendimento para um usuário.
+
+**Atividades realizadas:**
+- Criação de um Permission Set.
+- Configuração de permissões de leitura e edição.
+- Atribuição individual ao usuário.
+- Restrição de acesso pelo perfil Standard User.
+- Validação das permissões efetivas.
+
+**Resultado:** acesso validado por meio do
+Permission Set, sem depender da permissão do perfil.
+
+[Ver relatório técnico e evidência](01-chamados-n1-n2/INC-002.md)
 
 ## Metodologia
 
