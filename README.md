@@ -28,8 +28,7 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 |---|---|---|
 
 | 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | 1º caso concluído |
-| 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | 1º caso concluído |
-
+| 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | 2º caso concluído |
 | 03 | Campos, layouts e validações | Planejado |
 | 04 | Automações com Flow | Planejado |
 | 05 | Importação e qualidade de dados | Planejado |
