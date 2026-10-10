@@ -71,10 +71,25 @@ Permission Set, sem depender da permissão do perfil.
 [Ver relatório técnico e evidência](01-chamados-n1-n2/INC-002.md)
 
 
+
 ### INC-003 — Erro de validação no Salesforce
 
 **Cenário:** usuário impedido de salvar o cadastro
 de um cliente devido a uma regra de validação.
+
+**Atividades realizadas:**
+- Reprodução do erro no Salesforce.
+- Investigação de Validation Rules.
+- Análise da fórmula de validação.
+- Identificação da causa do bloqueio.
+- Correção dos dados do registro.
+- Validação da solução aplicada.
+
+**Resultado:** cadastro corrigido e salvo
+com sucesso, mantendo a regra ativa.
+
+[Ver relatório técnico e evidências](01-chamados-n1-n2/INC-003.md)
+
 
 
 ### INC-004 — Automação com Salesforce Flow Builder
