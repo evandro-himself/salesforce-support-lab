@@ -24,13 +24,15 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 
 ## Projetos práticos
 
+
+## Projetos práticos
+
 | Módulo | Atividade | Status |
 |---|---|---|
-
-| 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | 1º caso concluído |
-| 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | 2º caso concluído |
-| 03 | [Campos e regras de validação](01-chamados-n1-n2/INC-003.md) | 3º caso concluído |
-| 04 | [Automação com Salesforce Flow Builder](01-chamados-n1-n2/INC-004.md) | 4º caso concluído |
+| 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | Concluído |
+| 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | Concluído |
+| 03 | [Campos e regras de validação](01-chamados-n1-n2/INC-003.md) | Concluído |
+| 04 | [Automação com Salesforce Flow Builder](01-chamados-n1-n2/INC-004.md) | Concluído |
 | 05 | Importação e qualidade de dados | Planejado |
 | 06 | Documentação e base de conhecimento | Planejado |
 
