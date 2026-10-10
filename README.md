@@ -30,7 +30,7 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 | 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | 1º caso concluído |
 | 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | 2º caso concluído |
 | 03 | [Campos e regras de validação](01-chamados-n1-n2/INC-003.md) | 3º caso concluído |
-| 04 | Automações com Flow | Planejado |
+| 04 | [Automação com Salesforce Flow Builder](01-chamados-n1-n2/INC-004.md) | 4º caso concluído |
 | 05 | Importação e qualidade de dados | Planejado |
 | 06 | Documentação e base de conhecimento | Planejado |
 
@@ -75,6 +75,28 @@ Permission Set, sem depender da permissão do perfil.
 
 **Cenário:** usuário impedido de salvar o cadastro
 de um cliente devido a uma regra de validação.
+
+
+### INC-004 — Automação com Salesforce Flow Builder
+
+**Cenário:** necessidade de automatizar a classificação
+de novas contas no Salesforce Sales Cloud.
+
+**Atividades realizadas:**
+- Criação de um Record-Triggered Flow.
+- Configuração de condições com fórmula.
+- Utilização de Fast Field Updates.
+- Criação de constante e elemento Assignment.
+- Ativação da automação.
+- Teste funcional com registro fictício.
+- Validação do preenchimento automático.
+
+**Resultado:** automação implementada e validada.
+O campo Categoria de Atendimento foi preenchido
+automaticamente com o valor Comercial.
+
+[Ver relatório técnico e evidências](01-chamados-n1-n2/INC-004.md)
+
 
 **Atividades realizadas:**
 - Reprodução do erro no Salesforce.
