@@ -13,14 +13,17 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 
 ## Tecnologias e ferramentas
 
-- Salesforce Sales Cloud e Service Cloud
-- Salesforce Setup
+**Ferramentas utilizadas nos casos documentados:**
+
+- Salesforce Sales Cloud (objeto Account)
+- Salesforce Setup (perfis, Permission Sets, Validation Rules e Duplicate Rules)
 - Salesforce Flow Builder
-- Salesforce Data Loader
-- SOQL (consultas básicas)
-- CSV e ferramentas de planilhas
-- Git e GitHub
+- Salesforce Data Import Wizard
+- Arquivos CSV
+- GitHub (documentação e evidências)
 - Trailhead Playground
+
+**Conhecimentos em estudo, ainda não demonstrados nos casos publicados:** Service Cloud, Data Loader e consultas SOQL.
 
 
 | Módulo | Atividade | Status |
@@ -148,20 +151,6 @@ de bloqueios por duplicidade de contas.
 [Ver relatório técnico INC-006](01-chamados-n1-n2/INC-006.md)
 
 [Consultar artigo KB-001](02-base-conhecimento/KB-001.md)
-
-
-**Atividades realizadas:**
-- Reprodução do erro no Salesforce.
-- Investigação de Validation Rules.
-- Análise da fórmula de validação.
-- Identificação da causa do bloqueio.
-- Correção dos dados do registro.
-- Validação da solução aplicada.
-
-**Resultado:** cadastro corrigido e salvo
-com sucesso, mantendo a regra ativa.
-
-[Ver relatório técnico e evidências](01-chamados-n1-n2/INC-003.md)
 
 ## Metodologia
 
