@@ -22,7 +22,6 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 - Git e GitHub
 - Trailhead Playground
 
-## Projetos práticos
 
 | Módulo | Atividade | Status |
 |---|---|---|
@@ -31,7 +30,7 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 | 03 | [Campos e regras de validação](01-chamados-n1-n2/INC-003.md) | Concluído |
 | 04 | [Automação com Salesforce Flow Builder](01-chamados-n1-n2/INC-004.md) | Concluído |
 | 05 | [Importação e qualidade de dados](01-chamados-n1-n2/INC-005.md) | Concluído |
-| 06 | Documentação e base de conhecimento | Planejado |
+| 06 | [Documentação e base de conhecimento](01-chamados-n1-n2/INC-006.md) | Concluído |
 
 ## Casos práticos concluídos
 
@@ -69,8 +68,6 @@ Permission Set, sem depender da permissão do perfil.
 
 [Ver relatório técnico e evidência](01-chamados-n1-n2/INC-002.md)
 
-
-
 ### INC-003 — Erro de validação no Salesforce
 
 **Cenário:** usuário impedido de salvar o cadastro
@@ -88,8 +85,6 @@ de um cliente devido a uma regra de validação.
 com sucesso, mantendo a regra ativa.
 
 [Ver relatório técnico e evidências](01-chamados-n1-n2/INC-003.md)
-
-
 
 ### INC-004 — Automação com Salesforce Flow Builder
 
@@ -130,6 +125,30 @@ e prevenção de novos cadastros duplicados
 validada por meio de teste funcional.
 
 [Ver relatório técnico e evidências](01-chamados-n1-n2/INC-005.md)
+
+
+### INC-006 — Documentação e Base de Conhecimento
+
+**Cenário:** criação de uma base de conhecimento
+para padronizar o atendimento de chamados
+relacionados ao Salesforce.
+
+**Atividades realizadas:**
+- Elaboração de documentação técnica.
+- Identificação de sintomas e possíveis causas.
+- Definição de procedimentos para suporte N1/N2.
+- Documentação de orientações para resolução.
+- Organização de evidências técnicas.
+- Publicação de artigo de base de conhecimento.
+
+**Resultado:** artigo KB-001 desenvolvido e
+publicado, com orientações para diagnóstico
+de bloqueios por duplicidade de contas.
+
+[Ver relatório técnico INC-006](01-chamados-n1-n2/INC-006.md)
+
+[Consultar artigo KB-001](02-base-conhecimento/KB-001.md)
+
 
 **Atividades realizadas:**
 - Reprodução do erro no Salesforce.
