@@ -24,16 +24,13 @@ As atividades serão realizadas em um ambiente Trailhead Playground, utilizando 
 
 ## Projetos práticos
 
-
-## Projetos práticos
-
 | Módulo | Atividade | Status |
 |---|---|---|
 | 01 | [Atendimento e incidentes N1/N2](01-chamados-n1-n2/INC-001.md) | Concluído |
 | 02 | [Usuários, perfis e permissões](01-chamados-n1-n2/INC-002.md) | Concluído |
 | 03 | [Campos e regras de validação](01-chamados-n1-n2/INC-003.md) | Concluído |
 | 04 | [Automação com Salesforce Flow Builder](01-chamados-n1-n2/INC-004.md) | Concluído |
-| 05 | Importação e qualidade de dados | Planejado |
+| 05 | [Importação e qualidade de dados](01-chamados-n1-n2/INC-005.md) | Concluído |
 | 06 | Documentação e base de conhecimento | Planejado |
 
 ## Casos práticos concluídos
@@ -114,6 +111,25 @@ automaticamente com o valor Comercial.
 
 [Ver relatório técnico e evidências](01-chamados-n1-n2/INC-004.md)
 
+### INC-005 — Importação e Qualidade de Dados
+
+**Cenário:** investigação de possíveis registros
+duplicados após a importação de clientes no Salesforce.
+
+**Atividades realizadas:**
+- Preparação e importação de arquivo CSV.
+- Mapeamento de campos no Data Import Wizard.
+- Análise dos resultados da importação.
+- Investigação de possíveis contas duplicadas.
+- Criação de Matching Rule personalizada.
+- Configuração de Duplicate Rule.
+- Teste funcional de bloqueio de duplicidades.
+
+**Resultado:** quatro contas criadas com sucesso
+e prevenção de novos cadastros duplicados
+validada por meio de teste funcional.
+
+[Ver relatório técnico e evidências](01-chamados-n1-n2/INC-005.md)
 
 **Atividades realizadas:**
 - Reprodução do erro no Salesforce.
